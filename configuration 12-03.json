@@ -1,0 +1,309 @@
+{
+    "version": "4.0",
+    "colors": {
+        "primary": "#FFD93908",
+        "onPrimary": "#ffffffff",
+        "accent": "#FF2e4f8a",
+        "onAccent": "#ffffffff",
+        "background": "#FFFFFFFF",
+        "onBackground": "#FF2e4f8a",
+        "success": "#ff34B78F",
+        "onSuccess": "#ffffffff",
+        "warning": "#FFD93908",
+        "onWarning": "#FFFFFFFF",
+        "error": "#FFD93908",
+        "onError": "#FFFFFFFF",
+        "allowedHomeZoneFill": "#2E34B78F",
+        "allowedHomeZoneOutline": "#FF34B78F",
+        "forbiddenHomeZoneFill": "#2Ee02832",
+        "forbiddenHomeZoneOutline": "#ffe02832",
+        "topBar": "#FF2e4f8a",
+        "onTopBar": "#ffFFFFFF",
+        "cardBackground": "#FFfafafa",
+        "onCardBackground": "#FF262729",
+        "fullPageBackgroundColor": "#ffFFFFFF",
+        "onFullPageBackgroundColor": "#FF262729",
+        "priceBackground": "#1A34B78F",
+        "onPriceBackground": "#FF262729",
+        "logoutColor": "#FFD93908",
+        "onSplashscreenColor": "#FFFFFFFF",
+        "tabBarColor": "#FFfafafa",
+        "onTabBarColor": "#FF262729",
+        "fullColoredPageBackgroundColor": "#ffFFFFFF",
+        "onFullColoredPageBackgroundColor": "#FF2e4f8a",
+        "selectedTabBarItemColor": "#FF2e4f8a",
+        "currentBookingTag": "#1AF03D07",
+        "onCurrentBookingTag": "#FF262729",
+        "bleConnecting": "#ff707070",
+        "bleConnected": "#ff4287f5",
+        "onLowSeverityCard": "#FF39b54a",
+        "lowSeverityCard": "#1A39b54a",
+        "onMediumSeverityCard": "#FFfbb040",
+        "mediumSeverityCard": "#1Afbb040",
+        "onHighSeverityCard": "#FFe02832",
+        "highSeverityCard": "#1Ae02832",
+        "backgroundParkingBadge": "#FFD93908",
+        "onBackgroundParkingBadge": "#FFFFFFFF",
+        "onboardingBackground": "#FFFAFAFA",
+        "onOnboardingBackground": "#ff262729",
+        "onboardingButtons": "#FF2e4f8a",
+        "onOnboardingButtons": "#ffffffff",
+        "onboardingSkipButton": "#FF34B78F",
+        "discountPriceBackground": "#1AD93908",
+        "onDiscountPriceBackground": "#FFD93908",
+        "discountPriceBadge": "#FFFFFFFF"
+    },
+    "bundle": {
+        "displayName": "HOURCAR stag",
+        "iosIdentifier": "com.vulog.carshare.oa.hourcar.stag",
+        "itunesIdentifier": "123456789",
+        "androidIdentifier": "com.vulog.carshare.oa.hourcar.stag",
+        "buildName": "3.0",
+        "buildNumber": 81,
+        "deeplink": "oa-hourcar-stag"
+    },
+    "auth": {
+        "baseUrl": "https://java-sta.vulog.com:443/auth/realms/HOURCAR-USMSP/protocol/openid-connect/token",
+        "recaptcha": {
+            "siteKeyIOS": "6Lcqw5IaAAAAAPZPzTxwZWPXPLpT8s4RtQgO4J-Q",
+            "siteKeyAndroid": "6LdUx5IaAAAAAC8cw4gzBm7XrBcrrQoLzF60pXlb"
+        },
+        "anonymous": {
+            "clientId": "HOURCAR-USMSP_anon",
+            "clientSecret": "9e06101e-bba8-4cb9-825a-1fc61cbbe567",
+            "apiKey": "c8fc6a4d-54b4-452a-8018-1e4af58adb75"
+        },
+        "secure": {
+            "clientId": "HOURCAR-USMSP_secure",
+            "clientSecret": "4bbf8a7f-75c2-46ea-829e-23814ac50b19",
+            "apiKey": "b7774471-6953-40d2-8c4c-546b0c1d881b"
+        },
+        "registerUrl": "https://hourcar-fo-test.vulog.center/register?apps=true",
+        "forgottenPasswordUrl": "https://hourcar-fo-test.vulog.center/send_lost_password_email?apps=true"
+    },
+    "api": {
+        "baseUrl": "https://java-sta.vulog.com/apiv5/"
+    },
+    "branding": {
+        "fonts": {
+            "headlinesSubtitles": {
+                "googleFontName": "Roboto"
+            },
+            "bodyCaptions": {
+                "googleFontName": "Roboto"
+            }
+        },
+        "ui": {
+            "radius": 24
+        }
+    },
+    "ui": {
+        "pricing": {
+            "enabled": true,
+            "details": true,
+            "discount": true,
+            "showDiscountedBillingGroup": false,
+            "priceDiscount": false
+        },
+        "journey": {
+            "endingTimerThreshold": 1
+        },
+        "PricingInVehicleBookingCard": {
+            "enabled": true,
+            "details": true
+        },
+        "PricingDetails": {
+            "enabled": true
+        },
+        "AutonomyDisplay": {
+            "displayAsPercentage": false
+        },
+        "freeFloatingFilters": {
+            "hideModels": false,
+            "hideEnergies": false,
+            "hideAutonomy": false,
+            "hideSeats": false
+        }
+    },
+    "features": {
+        "loadingViewLoader": {
+            "enabled": true,
+            "position": 0.75
+        },
+        "map": {
+            "styleUrl": "mapbox://styles/vuloghd/cj1rn3ev1001b2rnz3csokego",
+            "initialPosition": {
+                "latitude": 44.983131,
+                "longitude": -93.26839
+            },
+            "zoom": {
+                "initial": 13,
+                "selected": 17,
+                "inTrip": 15
+            },
+            "anchor": {
+                "vehicle": "bottom",
+                "parking": "bottom",
+                "city": "center",
+                "station": "bottom",
+                "journeyVehicle": "bottom",
+                "user": "center",
+                "location": "bottom"
+            }
+        },
+        "poweredBy": {
+            "enabled": true
+        },
+        "firebaseAnalytics": {
+            "enabled": true
+        },
+        "segment": {
+            "iOSApiKey": "BEEykEAzfY8lTSSGv8eTJCL96b0nPPAr",
+            "androidApiKey": "6VfSiMC1FUJ1zU7RgmMCSZkQnPTBiHM0"
+        },
+        "menuItems": [
+            {
+                "type": "1",
+                "showIsAuthenticate": false,
+                "showIsAnonymous": true,
+                "key": "login",
+                "url": ""
+            },
+            {
+                "type": "3",
+                "showIsAuthenticate": true,
+                "showIsAnonymous": true,
+                "key": "call_member_services",
+                "url": "612-343-2277"
+            },
+            {
+                "type": "0",
+                "showIsAuthenticate": true,
+                "showIsAnonymous": true,
+                "key": "evie_faq",
+                "url": "https://eviecarshare.com/faq"
+            },
+            {
+                "type": "0",
+                "showIsAuthenticate": true,
+                "showIsAnonymous": true,
+                "key": "hourcar_faq",
+                "url": "https://hourcar.org/faq/"
+            },
+            {
+                "type": "0",
+                "showIsAuthenticate": true,
+                "showIsAnonymous": true,
+                "key": "insurance_card",
+                "url": "https://hourcar.org/insurance/"
+            },
+            {
+                "type": "0",
+                "showIsAuthenticate": true,
+                "showIsAnonymous": false,
+                "key": "my_account",
+                "url": "https://hourcar-fo-test.vulog.center/account?apps=true"
+            },
+            {
+                "type": "0",
+                "showIsAuthenticate": true,
+                "showIsAnonymous": false,
+                "key": "billing",
+                "url": "https://hourcar-fo-test.vulog.center/billing?apps=true"
+            },
+            {
+                "type": "0",
+                "showIsAuthenticate": true,
+                "showIsAnonymous": false,
+                "key": "free_minutes",
+                "url": "https://hourcar-fo-test.vulog.center/free_minutes?apps=true"
+            },
+            {
+                "type": "4",
+                "showIsAuthenticate": true,
+                "showIsAnonymous": false,
+                "key": "refer_my_friends",
+                "url": ""
+            },
+            {
+                "type": "0",
+                "showIsAuthenticate": true,
+                "showIsAnonymous": true,
+                "key": "contact",
+                "url": "https://hourcar.org/contact/"
+            }
+        ],
+        "batch": {
+            "iOSApiKey": "",
+            "androidApiKey": "",
+            "numberOfLaunchesBeforeReAskingPermission": 15
+        },
+        "extendBooking": {
+            "enabled": true,
+            "canCallHelpDesk": true
+        },
+        "bluetooth": {
+            "enabled": true
+        },
+        "damageReport": {
+            "beforeUnlockEnabled": true,
+            "afterUnlockEnabled": true,
+            "beforeUnlockMandatory": true,
+            "afterUnlockMandatory": true,
+            "pictureEnabled": true,
+            "pictureMandatory": false,
+            "enabled": true
+        },
+        "perTripWaiver": {
+            "enabled": false,
+            "insuranceDetailsLink": ""
+        },
+        "proximityCheck": {
+            "enabled": false,
+            "mandatory": false
+        },
+        "rateApp": {
+            "enabled": true,
+            "minNumberOfTrip": 2,
+            "minNumberOfTripAfterDismissedRating": 4
+        },
+        "parkingVehicleList": {
+            "enabled": true
+        },
+        "onboarding": {
+            "enabled": false,
+            "screensNumber": 1
+        },
+        "endTripReport": {
+            "enabled": false,
+            "numberOfMinimumPictures": 4,
+            "minNumberOfPictures": 2
+        },
+        "freeFloatingTrip": {
+            "tripTimerEnabled": true
+        },
+        "cleanliness": {
+            "cleanlinessReportEnabled": true,
+            "enabled": true,
+            "picturesAndCommentsEnabled": false,
+            "minNumberOfPictures": 4
+        }
+    },
+    "calendar": {
+        "stepInMins": 15,
+        "stepDurationInMins": 15,
+        "minBookingDurationInMins": 30,
+        "minTimeBeforeBookingInMins": 15,
+        "maxSelectableEndDateFromNowInDays": 180,
+        "maxBookingDurationInDays": 3,
+        "defaultBookingDurationInMins": 60,
+        "strictLimitTime": false,
+        "limit": {
+            "minInMins": 0,
+            "maxInMins": 1440
+        }
+    },
+    "fonts": {},
+    "lokaliseID": "400967476061e982db2e03.41669693",
+    "defaultLanguage": "en"
+}
